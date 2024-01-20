@@ -1,0 +1,10 @@
+.DS_Store
+.metaData
+Thumbs.db
+
+*.bak
+*.tmp
+General/
+
+
+

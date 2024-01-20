@@ -1,0 +1,12 @@
+SELECT ROUND(3.14,1);
+SELECT FLOOR(3.14);
+SELECT CEILING(3.14);
+
+SELECT RAND();
+SELECT POWER(2,4);
+
+
+USE day_4_9_db;
+
+SELECT weight /POWER(height/100,2) AS BMI FROM students; 
+

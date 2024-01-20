@@ -1,0 +1,5 @@
+use jrdb;
+
+ALTER TABLE NewSED MODIFY 血統登録番号 CHAR(12);
+ALTER TABLE NewSED MODIFY race_key CHAR(12);
+ALTER TABLE NewSED ADD PRIMARY KEY(血統登録番号,race_key);
